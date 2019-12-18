@@ -2,10 +2,9 @@
 
 **Torres & Omnibus-Type Team**
 *SIL Open Font License 1.1,*
-*18 fonts, 885 glyphs each variant (Press Series).*
-*Tipos Latinos 2014*
+*36 fonts (18 display, 18 text), +800 glyphs each variant.*
 
-Texturina, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..
+Texturina, A highly applicable typeface with the richness of Blackletter, yet maintaining fluidity by combining broken and softened curves. Latin GF Plus character set (+630 characters/+800 glyphs). TTFAutohint. Designed by Guillermo Torres (CO).
 
 ![Sample of Texturina Family.](Texturina-01.png "Texturina")
 ![Sample of Texturina Family.](Texturina-02.png "Texturina")
