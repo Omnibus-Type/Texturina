@@ -1,4 +1,4 @@
-Copyright (c) 2019, The Texturina Project Authors (https://github.com/Omnibus-Type/Texturina)
+Copyright 2020 The Texturina Project Authors (https://github.com/Omnibus-Type/Texturina)
 
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
