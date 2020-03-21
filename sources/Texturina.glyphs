@@ -1,5 +1,5 @@
 {
-.appVersion = "1290";
+.appVersion = "1303";
 classes = (
 {
 automatic = 1;
@@ -57,7 +57,7 @@ Tag = opsz;
 },
 {
 name = "Variable Font File Name";
-value = Texturina;
+value = "Texturina[wght,opsz]";
 },
 {
 name = "Variable Font Family Name";
@@ -65,10 +65,10 @@ value = Texturina;
 },
 {
 name = "Variable Font Origin";
-value = "65D1C757-52A4-41AF-B6F1-0B1906938095";
+value = UUID0;
 }
 );
-date = "2020-02-14 22:18:41 +0000";
+date = "2020-03-21 19:49:33 +0000";
 designer = "Guillermo Torres Carreño";
 designerURL = "http://www.omnibus-type.com/";
 familyName = Texturina;
@@ -498,7 +498,6 @@ verticalStems = (
 55,
 92
 );
-weightValue = 52;
 widthValue = 72;
 xHeight = 500;
 },
@@ -611,7 +610,7 @@ verticalStems = (
 130,
 135
 );
-weightValue = 92;
+weightValue = 500;
 widthValue = 72;
 xHeight = 500;
 },
@@ -726,7 +725,7 @@ verticalStems = (
 158,
 184
 );
-weightValue = 157;
+weightValue = 900;
 widthValue = 72;
 xHeight = 500;
 },
@@ -840,7 +839,6 @@ verticalStems = (
 55,
 92
 );
-weightValue = 52;
 widthValue = 12;
 xHeight = 500;
 },
@@ -951,7 +949,7 @@ verticalStems = (
 130,
 135
 );
-weightValue = 92;
+weightValue = 500;
 widthValue = 12;
 xHeight = 500;
 },
@@ -1067,7 +1065,7 @@ verticalStems = (
 158,
 184
 );
-weightValue = 157;
+weightValue = 900;
 widthValue = 12;
 xHeight = 500;
 }
@@ -142596,7 +142594,6 @@ width = 600;
 );
 instances = (
 {
-interpolationWeight = 52;
 interpolationWidth = 72;
 instanceInterpolations = {
 "65D1C757-52A4-41AF-B6F1-0B1906938095" = 1;
@@ -142605,77 +142602,76 @@ name = Thin;
 weightClass = Thin;
 },
 {
-interpolationWeight = 61;
+interpolationWeight = 200;
 interpolationWidth = 72;
 instanceInterpolations = {
-"65D1C757-52A4-41AF-B6F1-0B1906938095" = 0.775;
-UUID0 = 0.225;
+"65D1C757-52A4-41AF-B6F1-0B1906938095" = 0.75;
+UUID0 = 0.25;
 };
 name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
-interpolationWeight = 71;
+interpolationWeight = 300;
 interpolationWidth = 72;
 instanceInterpolations = {
-"65D1C757-52A4-41AF-B6F1-0B1906938095" = 0.525;
-UUID0 = 0.475;
+"65D1C757-52A4-41AF-B6F1-0B1906938095" = 0.5;
+UUID0 = 0.5;
 };
 name = Light;
 weightClass = Light;
 },
 {
-interpolationWeight = 84;
+interpolationWeight = 400;
 interpolationWidth = 72;
 instanceInterpolations = {
-"65D1C757-52A4-41AF-B6F1-0B1906938095" = 0.2;
-UUID0 = 0.8;
+"65D1C757-52A4-41AF-B6F1-0B1906938095" = 0.25;
+UUID0 = 0.75;
 };
 name = Regular;
 },
 {
-interpolationWeight = 98;
+interpolationWeight = 500;
 interpolationWidth = 72;
 instanceInterpolations = {
-"C4D96FDC-31F2-4CF4-BEA5-4CCE99FECD99" = 0.09231;
-UUID0 = 0.90769;
+UUID0 = 1;
 };
 name = Medium;
 weightClass = Medium;
 },
 {
-interpolationWeight = 113;
+interpolationWeight = 600;
 interpolationWidth = 72;
 instanceInterpolations = {
-"C4D96FDC-31F2-4CF4-BEA5-4CCE99FECD99" = 0.32308;
-UUID0 = 0.67692;
+"C4D96FDC-31F2-4CF4-BEA5-4CCE99FECD99" = 0.25;
+UUID0 = 0.75;
 };
 name = SemiBold;
 weightClass = SemiBold;
 },
 {
-interpolationWeight = 128;
+interpolationWeight = 700;
 interpolationWidth = 72;
 instanceInterpolations = {
-"C4D96FDC-31F2-4CF4-BEA5-4CCE99FECD99" = 0.55385;
-UUID0 = 0.44615;
+"C4D96FDC-31F2-4CF4-BEA5-4CCE99FECD99" = 0.5;
+UUID0 = 0.5;
 };
 isBold = 1;
 name = Bold;
 weightClass = Bold;
 },
 {
-interpolationWeight = 143;
+interpolationWeight = 800;
 interpolationWidth = 72;
 instanceInterpolations = {
-"C4D96FDC-31F2-4CF4-BEA5-4CCE99FECD99" = 0.78462;
-UUID0 = 0.21538;
+"C4D96FDC-31F2-4CF4-BEA5-4CCE99FECD99" = 0.75;
+UUID0 = 0.25;
 };
 name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
-interpolationWeight = 157;
+interpolationWeight = 900;
 interpolationWidth = 72;
 instanceInterpolations = {
 "C4D96FDC-31F2-4CF4-BEA5-4CCE99FECD99" = 1;
@@ -142684,7 +142680,6 @@ name = Black;
 weightClass = Black;
 },
 {
-interpolationWeight = 52;
 interpolationWidth = 12;
 instanceInterpolations = {
 "891D9FC5-7784-4CE6-B01A-BC8B0C8DC68C" = 1;
@@ -142693,60 +142688,59 @@ name = "Thin Text";
 weightClass = Thin;
 },
 {
-interpolationWeight = 61;
+interpolationWeight = 200;
 interpolationWidth = 12;
 instanceInterpolations = {
-"891D9FC5-7784-4CE6-B01A-BC8B0C8DC68C" = 0.775;
-"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.225;
+"891D9FC5-7784-4CE6-B01A-BC8B0C8DC68C" = 0.75;
+"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.25;
 };
 name = "ExtraLight Text";
 weightClass = ExtraLight;
 },
 {
-interpolationWeight = 71;
+interpolationWeight = 300;
 interpolationWidth = 12;
 instanceInterpolations = {
-"891D9FC5-7784-4CE6-B01A-BC8B0C8DC68C" = 0.525;
-"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.475;
+"891D9FC5-7784-4CE6-B01A-BC8B0C8DC68C" = 0.5;
+"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.5;
 };
 name = "Light Text";
 weightClass = Light;
 },
 {
-interpolationWeight = 84;
+interpolationWeight = 400;
 interpolationWidth = 12;
 instanceInterpolations = {
-"891D9FC5-7784-4CE6-B01A-BC8B0C8DC68C" = 0.2;
-"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.8;
+"891D9FC5-7784-4CE6-B01A-BC8B0C8DC68C" = 0.25;
+"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.75;
 };
 name = "Regular Text";
 },
 {
-interpolationWeight = 98;
+interpolationWeight = 500;
 interpolationWidth = 12;
 instanceInterpolations = {
-"B67CA61C-C7DB-4511-8D93-FE28BE810A6B" = 0.09231;
-"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.90769;
+"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 1;
 };
 name = "Medium Text";
 weightClass = Medium;
 },
 {
-interpolationWeight = 113;
+interpolationWeight = 600;
 interpolationWidth = 12;
 instanceInterpolations = {
-"B67CA61C-C7DB-4511-8D93-FE28BE810A6B" = 0.32308;
-"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.67692;
+"B67CA61C-C7DB-4511-8D93-FE28BE810A6B" = 0.25;
+"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.75;
 };
 name = "SemiBold Text";
 weightClass = SemiBold;
 },
 {
-interpolationWeight = 128;
+interpolationWeight = 700;
 interpolationWidth = 12;
 instanceInterpolations = {
-"B67CA61C-C7DB-4511-8D93-FE28BE810A6B" = 0.55385;
-"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.44615;
+"B67CA61C-C7DB-4511-8D93-FE28BE810A6B" = 0.5;
+"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.5;
 };
 isBold = 1;
 linkStyle = "Regular Text";
@@ -142754,17 +142748,17 @@ name = "Bold Text";
 weightClass = Bold;
 },
 {
-interpolationWeight = 143;
+interpolationWeight = 800;
 interpolationWidth = 12;
 instanceInterpolations = {
-"B67CA61C-C7DB-4511-8D93-FE28BE810A6B" = 0.78462;
-"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.21538;
+"B67CA61C-C7DB-4511-8D93-FE28BE810A6B" = 0.75;
+"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.25;
 };
 name = "ExtraBold Text";
 weightClass = ExtraBold;
 },
 {
-interpolationWeight = 157;
+interpolationWeight = 900;
 interpolationWidth = 12;
 instanceInterpolations = {
 "B67CA61C-C7DB-4511-8D93-FE28BE810A6B" = 1;
@@ -145011,7 +145005,7 @@ oV = "85";
 tH = "58";
 };
 };
-LWPluginVersion = "1392";
+LWPluginVersion = "1429";
 };
 versionMajor = 1;
 versionMinor = 0;
