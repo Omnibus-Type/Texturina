@@ -1,5 +1,5 @@
 {
-.appVersion = "1303";
+.appVersion = "1330";
 classes = (
 {
 automatic = 1;
@@ -68,7 +68,7 @@ name = "Variable Font Origin";
 value = UUID0;
 }
 );
-date = "2020-03-21 19:49:33 +0000";
+date = "2020-05-11 15:38:31 +0000";
 designer = "Guillermo Torres Carreño";
 designerURL = "http://www.omnibus-type.com/";
 familyName = Texturina;
@@ -398,7 +398,7 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 704;
-custom = Thin;
+custom = "72pt Thin";
 customParameters = (
 {
 name = "Master Icon Glyph Name";
@@ -511,7 +511,7 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 704;
-custom = Medium;
+custom = "72pt Medium";
 customParameters = (
 {
 name = "Master Icon Glyph Name";
@@ -624,7 +624,7 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 704;
-custom = Black;
+custom = "72pt Black";
 customParameters = (
 {
 name = "Master Icon Glyph Name";
@@ -739,7 +739,7 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 704;
-custom = "Thin Text";
+custom = "12pt Thin";
 customParameters = (
 {
 name = "Master Icon Glyph Name";
@@ -852,7 +852,7 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 704;
-custom = "Medium Text";
+custom = "12pt Medium";
 customParameters = (
 {
 name = "Master Icon Glyph Name";
@@ -963,7 +963,7 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 704;
-custom = "Black Text";
+custom = "12pt Black";
 customParameters = (
 {
 name = "Master Icon Glyph Name";
@@ -142598,7 +142598,7 @@ interpolationWidth = 72;
 instanceInterpolations = {
 "65D1C757-52A4-41AF-B6F1-0B1906938095" = 1;
 };
-name = Thin;
+name = "72pt Thin";
 weightClass = Thin;
 },
 {
@@ -142608,7 +142608,7 @@ instanceInterpolations = {
 "65D1C757-52A4-41AF-B6F1-0B1906938095" = 0.75;
 UUID0 = 0.25;
 };
-name = ExtraLight;
+name = "72pt ExtraLight";
 weightClass = ExtraLight;
 },
 {
@@ -142618,7 +142618,7 @@ instanceInterpolations = {
 "65D1C757-52A4-41AF-B6F1-0B1906938095" = 0.5;
 UUID0 = 0.5;
 };
-name = Light;
+name = "72pt Light";
 weightClass = Light;
 },
 {
@@ -142628,7 +142628,7 @@ instanceInterpolations = {
 "65D1C757-52A4-41AF-B6F1-0B1906938095" = 0.25;
 UUID0 = 0.75;
 };
-name = Regular;
+name = "72pt Regular";
 },
 {
 interpolationWeight = 500;
@@ -142636,7 +142636,7 @@ interpolationWidth = 72;
 instanceInterpolations = {
 UUID0 = 1;
 };
-name = Medium;
+name = "72pt Medium";
 weightClass = Medium;
 },
 {
@@ -142646,7 +142646,7 @@ instanceInterpolations = {
 "C4D96FDC-31F2-4CF4-BEA5-4CCE99FECD99" = 0.25;
 UUID0 = 0.75;
 };
-name = SemiBold;
+name = "72pt SemiBold";
 weightClass = SemiBold;
 },
 {
@@ -142657,7 +142657,8 @@ instanceInterpolations = {
 UUID0 = 0.5;
 };
 isBold = 1;
-name = Bold;
+linkStyle = "72pt Regular";
+name = "72pt Bold";
 weightClass = Bold;
 },
 {
@@ -142667,7 +142668,7 @@ instanceInterpolations = {
 "C4D96FDC-31F2-4CF4-BEA5-4CCE99FECD99" = 0.75;
 UUID0 = 0.25;
 };
-name = ExtraBold;
+name = "72pt ExtraBold";
 weightClass = ExtraBold;
 },
 {
@@ -142676,7 +142677,7 @@ interpolationWidth = 72;
 instanceInterpolations = {
 "C4D96FDC-31F2-4CF4-BEA5-4CCE99FECD99" = 1;
 };
-name = Black;
+name = "72pt Black";
 weightClass = Black;
 },
 {
@@ -142684,7 +142685,7 @@ interpolationWidth = 12;
 instanceInterpolations = {
 "891D9FC5-7784-4CE6-B01A-BC8B0C8DC68C" = 1;
 };
-name = "Thin Text";
+name = "12pt Thin";
 weightClass = Thin;
 },
 {
@@ -142694,7 +142695,7 @@ instanceInterpolations = {
 "891D9FC5-7784-4CE6-B01A-BC8B0C8DC68C" = 0.75;
 "FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.25;
 };
-name = "ExtraLight Text";
+name = "12pt ExtraLight";
 weightClass = ExtraLight;
 },
 {
@@ -142704,7 +142705,7 @@ instanceInterpolations = {
 "891D9FC5-7784-4CE6-B01A-BC8B0C8DC68C" = 0.5;
 "FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.5;
 };
-name = "Light Text";
+name = "12pt Light";
 weightClass = Light;
 },
 {
@@ -142714,7 +142715,7 @@ instanceInterpolations = {
 "891D9FC5-7784-4CE6-B01A-BC8B0C8DC68C" = 0.25;
 "FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.75;
 };
-name = "Regular Text";
+name = "12pt Regular";
 },
 {
 interpolationWeight = 500;
@@ -142722,7 +142723,7 @@ interpolationWidth = 12;
 instanceInterpolations = {
 "FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 1;
 };
-name = "Medium Text";
+name = "12pt Medium";
 weightClass = Medium;
 },
 {
@@ -142732,7 +142733,7 @@ instanceInterpolations = {
 "B67CA61C-C7DB-4511-8D93-FE28BE810A6B" = 0.25;
 "FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.75;
 };
-name = "SemiBold Text";
+name = "12pt SemiBold";
 weightClass = SemiBold;
 },
 {
@@ -142743,8 +142744,8 @@ instanceInterpolations = {
 "FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.5;
 };
 isBold = 1;
-linkStyle = "Regular Text";
-name = "Bold Text";
+linkStyle = "12pt Regular";
+name = "12pt Bold";
 weightClass = Bold;
 },
 {
@@ -142754,7 +142755,7 @@ instanceInterpolations = {
 "B67CA61C-C7DB-4511-8D93-FE28BE810A6B" = 0.75;
 "FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.25;
 };
-name = "ExtraBold Text";
+name = "12pt ExtraBold";
 weightClass = ExtraBold;
 },
 {
@@ -142763,7 +142764,7 @@ interpolationWidth = 12;
 instanceInterpolations = {
 "B67CA61C-C7DB-4511-8D93-FE28BE810A6B" = 1;
 };
-name = "Black Text";
+name = "12pt Black";
 weightClass = Black;
 }
 );
@@ -145008,5 +145009,5 @@ tH = "58";
 LWPluginVersion = "1429";
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
