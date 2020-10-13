@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="500"/>
+    <axis tag="opsz" name="Optical size" minimum="12" maximum="72" default="12"/>
+  </axes>
+
+  <rules>
+    <rule name="BRACKET.500.900">
+      <conditionset>
+        <condition name="Weight" minimum="500" maximum="900"/>
+      </conditionset>
+      <sub name="oslash" with="oslash.BRACKET.500"/>
+      <sub name="oslashacute" with="oslashacute.BRACKET.500"/>
+    </rule>
+  </rules>
+
+  <sources>
+
+    <source filename="Texturina-72ptThinItalic.ufo" name="Texturina 72pt Thin Italic" familyname="Texturina" stylename="72pt Thin Italic">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+
+    <source filename="Texturina-72ptMediumItalic.ufo" name="Texturina 72pt Medium Italic" familyname="Texturina" stylename="72pt Medium Italic">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+
+    <source filename="Texturina-72ptBlackItalic.ufo" name="Texturina 72pt Black Italic" familyname="Texturina" stylename="72pt Black Italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+
+    <source filename="Texturina-ThinItalic.ufo" name="Texturina Thin Italic" familyname="Texturina" stylename="Thin Italic">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </source>
+
+    <source filename="Texturina-MediumItalic.ufo" name="Texturina Medium Italic" familyname="Texturina" stylename="Medium Italic">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </source>
+
+    <source filename="Texturina-BlackItalic.ufo" name="Texturina Black Italic" familyname="Texturina" stylename="Black Italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </source>
+
+  </sources>
+
+  <instances>
+
+    <instance name="Texturina Thin Italic" familyname="Texturina" stylename="Thin Italic" filename="instance_ufo/Texturina-ThinItalic.ufo" stylemapfamilyname="Texturina Thin" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina ExtraLight Italic" familyname="Texturina" stylename="ExtraLight Italic" filename="instance_ufo/Texturina-ExtraLightItalic.ufo" stylemapfamilyname="Texturina Extralight" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina Light Italic" familyname="Texturina" stylename="Light Italic" filename="instance_ufo/Texturina-LightItalic.ufo" stylemapfamilyname="Texturina Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina Italic" familyname="Texturina" stylename="Italic" filename="instance_ufo/Texturina-Italic.ufo" stylemapfamilyname="Texturina" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina Medium Italic" familyname="Texturina" stylename="Medium Italic" filename="instance_ufo/Texturina-MediumItalic.ufo" stylemapfamilyname="Texturina Medium" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina SemiBold Italic" familyname="Texturina" stylename="SemiBold Italic" filename="instance_ufo/Texturina-SemiBoldItalic.ufo" stylemapfamilyname="Texturina SemiBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina Bold Italic" familyname="Texturina" stylename="Bold Italic" filename="instance_ufo/Texturina-BoldItalic.ufo" stylemapfamilyname="Texturina" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina ExtraBold Italic" familyname="Texturina" stylename="ExtraBold Italic" filename="instance_ufo/Texturina-ExtraBoldItalic.ufo" stylemapfamilyname="Texturina ExtraBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina Black Italic" familyname="Texturina" stylename="Black Italic" filename="instance_ufo/Texturina-BlackItalic.ufo" stylemapfamilyname="Texturina Black" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+  </instances>
+
+</designspace>

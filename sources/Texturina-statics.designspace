@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="500"/>
+    <axis tag="opsz" name="Optical size" minimum="12" maximum="72" default="12"/>
+  </axes>
+
+  <rules>
+    <rule name="BRACKET.500.900">
+      <conditionset>
+        <condition name="Weight" minimum="500" maximum="900"/>
+      </conditionset>
+      <sub name="oslash" with="oslash.BRACKET.500"/>
+      <sub name="oslashacute" with="oslashacute.BRACKET.500"/>
+    </rule>
+  </rules>
+
+  <sources>
+
+    <source filename="Texturina-72ptThin.ufo" name="Texturina 72pt Thin" familyname="Texturina" stylename="72pt Thin">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+
+    <source filename="Texturina-72ptMedium.ufo" name="Texturina 72pt Medium" familyname="Texturina" stylename="72pt Medium">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+
+    <source filename="Texturina-72ptBlack.ufo" name="Texturina 72pt Black" familyname="Texturina" stylename="72pt Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+
+    <source filename="Texturina-Thin.ufo" name="Texturina Thin" familyname="Texturina" stylename="Thin">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </source>
+
+    <source filename="Texturina-Medium.ufo" name="Texturina Medium" familyname="Texturina" stylename="Medium">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </source>
+
+    <source filename="Texturina-Black.ufo" name="Texturina Black" familyname="Texturina" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </source>
+
+  </sources>
+
+  <instances>
+
+    <instance name="Texturina Thin" familyname="Texturina" stylename="Thin" filename="instance_ufo/Texturina-Thin.ufo" stylemapfamilyname="Texturina Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina ExtraLight" familyname="Texturina" stylename="ExtraLight" filename="instance_ufo/Texturina-ExtraLight.ufo" stylemapfamilyname="Texturina ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina Light" familyname="Texturina" stylename="Light" filename="instance_ufo/Texturina-Light.ufo" stylemapfamilyname="Texturina Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina Regular" familyname="Texturina" stylename="Regular" filename="instance_ufo/Texturina-Regular.ufo" stylemapfamilyname="Texturina" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina Medium" familyname="Texturina" stylename="Medium" filename="instance_ufo/Texturina-Medium.ufo" stylemapfamilyname="Texturina Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina SemiBold" familyname="Texturina" stylename="SemiBold" filename="instance_ufo/Texturina-SemiBold.ufo" stylemapfamilyname="Texturina SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina Bold" familyname="Texturina" stylename="Bold" filename="instance_ufo/Texturina-Bold.ufo" stylemapfamilyname="Texturina 12pt Regular" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina ExtraBold" familyname="Texturina" stylename="ExtraBold" filename="instance_ufo/Texturina-ExtraBold.ufo" stylemapfamilyname="Texturina ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina Black" familyname="Texturina" stylename="Black" filename="instance_ufo/Texturina-Black.ufo" stylemapfamilyname="Texturina Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina 72pt Thin" familyname="Texturina 72pt" stylename="Thin" filename="instance_ufo/Texturina72pt-Thin.ufo" stylemapfamilyname="Texturina 72pt Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina 72pt ExtraLight" familyname="Texturina 72pt" stylename="ExtraLight" filename="instance_ufo/Texturina72pt-ExtraLight.ufo" stylemapfamilyname="Texturina 72pt ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina 72pt Light" familyname="Texturina 72pt" stylename="Light" filename="instance_ufo/Texturina72pt-Light.ufo" stylemapfamilyname="Texturina 72pt Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina 72pt Regular" familyname="Texturina 72pt" stylename="Regular" filename="instance_ufo/Texturina72pt-Regular.ufo" stylemapfamilyname="Texturina 72pt" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina 72pt Medium" familyname="Texturina 72pt" stylename="Medium" filename="instance_ufo/Texturina72pt-Medium.ufo" stylemapfamilyname="Texturina 72pt Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina 72pt SemiBold" familyname="Texturina 72pt" stylename="SemiBold" filename="instance_ufo/Texturina72pt-SemiBold.ufo" stylemapfamilyname="Texturina 72pt SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina 72pt Bold" familyname="Texturina 72pt" stylename="Bold" filename="instance_ufo/Texturina72pt-Bold.ufo" stylemapfamilyname="Texturina 72pt" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina 72pt ExtraBold" familyname="Texturina 72pt" stylename="ExtraBold" filename="instance_ufo/Texturina72pt-ExtraBold.ufo" stylemapfamilyname="Texturina 72pt ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+    <instance name="Texturina 72pt Black" familyname="Texturina 72pt" stylename="Black" filename="instance_ufo/Texturina72pt-Black.ufo" stylemapfamilyname="Texturina 72pt Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="12"/>
+      </location>
+    </instance>
+
+  </instances>
+
+</designspace>
