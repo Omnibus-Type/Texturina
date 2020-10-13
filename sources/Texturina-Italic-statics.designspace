@@ -130,63 +130,63 @@
     <instance name="Texturina 72pt Thin Italic" familyname="Texturina 72pt" stylename="Thin Italic" filename="instance_ufo/Texturina72pt-ThinItalic.ufo" stylemapfamilyname="Texturina 72pt Thin" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="Optical size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="72"/>
       </location>
     </instance>
 
     <instance name="Texturina 72pt ExtraLight Italic" familyname="Texturina 72pt" stylename="ExtraLight Italic" filename="instance_ufo/Texturina72pt-ExtraLightItalic.ufo" stylemapfamilyname="Texturina 72pt ExtraLight" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="200"/>
-        <dimension name="Optical size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="72"/>
       </location>
     </instance>
 
     <instance name="Texturina 72pt Light Italic" familyname="Texturina 72pt" stylename="Light Italic" filename="instance_ufo/Texturina72pt-LightItalic.ufo" stylemapfamilyname="Texturina 72pt Light" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Optical size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="72"/>
       </location>
     </instance>
 
     <instance name="Texturina 72pt Italic" familyname="Texturina 72pt" stylename="Italic" filename="instance_ufo/Texturina72pt-Italic.ufo" stylemapfamilyname="Texturina 72pt" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Optical size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="72"/>
       </location>
     </instance>
 
     <instance name="Texturina 72pt Medium Italic" familyname="Texturina 72pt" stylename="Medium Italic" filename="instance_ufo/Texturina72pt-MediumItalic.ufo" stylemapfamilyname="Texturina 72pt Medium" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="500"/>
-        <dimension name="Optical size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="72"/>
       </location>
     </instance>
 
     <instance name="Texturina 72pt SemiBold Italic" familyname="Texturina 72pt" stylename="SemiBold Italic" filename="instance_ufo/Texturina72pt-SemiBoldItalic.ufo" stylemapfamilyname="Texturina 72pt SemiBold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="600"/>
-        <dimension name="Optical size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="72"/>
       </location>
     </instance>
 
     <instance name="Texturina 72pt Bold Italic" familyname="Texturina 72pt" stylename="Bold Italic" filename="instance_ufo/Texturina72pt-BoldItalic.ufo" stylemapfamilyname="Texturina 72pt" stylemapstylename="bold italic">
       <location>
         <dimension name="Weight" xvalue="700"/>
-        <dimension name="Optical size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="72"/>
       </location>
     </instance>
 
     <instance name="Texturina 72pt ExtraBold Italic" familyname="Texturina 72pt" stylename="ExtraBold Italic" filename="instance_ufo/Texturina72pt-ExtraBoldItalic.ufo" stylemapfamilyname="Texturina 72pt ExtraBold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="800"/>
-        <dimension name="Optical size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="72"/>
       </location>
     </instance>
 
     <instance name="Texturina 72pt Black Italic" familyname="Texturina 72pt" stylename="Black Italic" filename="instance_ufo/Texturina72pt-BlackItalic.ufo" stylemapfamilyname="Texturina 72pt Black" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="Optical size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="72"/>
       </location>
     </instance>
 

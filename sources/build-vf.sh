@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-source ../env/bin/activate
+#source ../env/bin/activate
 
 VF_PATH=../fonts/variable/Texturina[opsz,wght].ttf
 VF_PATH_IT=../fonts/variable/Texturina-Italic[opsz,wght].ttf
@@ -39,8 +39,7 @@ do
 done
 rm ../fonts/variable/*gasp*
 
-python scripts/gen_stat.py $VF_PATH
-python scripts/gen_stat_it.py $VF_PATH_IT
+python gen_stat.py
 
 
 rm -rf instance_ufo/ *.ufo
