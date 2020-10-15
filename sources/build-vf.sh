@@ -2,34 +2,28 @@
 set -e
 #source ../env/bin/activate
 
-VF_PATH=../fonts/variable/Texturina[opsz,wght].ttf
-VF_PATH_IT=../fonts/variable/Texturina-Italic[opsz,wght].ttf
-
-echo ".
-MAKE UFO
-."
-rm -rf *.ufo
-glyphs2ufo Texturina.glyphs --generate-GDEF
-glyphs2ufo Texturina-Italic.glyphs --generate-GDEF
-rm Texturina.designspace Texturina-Italic.designspace
+fontName="Texturina"
+fontName_it="Texturina-Italic"
+axes="opsz,wght"
 
 ##########################################
 
 echo ".
 GENERATING VARIABLE
 ."
-rm -rf ../fonts/variable
-mkdir -p ../fonts/variable
+VF_DIR=../fonts/variable
+rm -rf $VF_DIR
+mkdir -p $VF_DIR
 
-fontmake -m Texturina-VF.designspace -o variable --output-path $VF_PATH
-fontmake -m Texturina-VF-Italic.designspace -o variable --output-path $VF_PATH_IT
+fontmake -g $fontName.glyphs --family-name $fontName -o variable --output-path $VF_DIR/$fontName[$axes].ttf
+fontmake -g $fontName_it.glyphs --family-name $fontName -o variable --output-path $VF_DIR/$fontName_it[$axes].ttf
 
 ##########################################
 
 echo ".
 POST-PROCESSING VF
 ."
-vfs=$(ls ../fonts/variable/*.ttf)
+vfs=$(ls $VF_DIR/*.ttf)
 for font in $vfs
 do
 	gftools fix-dsig --autofix $font
@@ -37,12 +31,14 @@ do
 	mv $font.fix $font
 	gftools fix-unwanted-tables --tables MVAR $font
 done
-rm ../fonts/variable/*gasp*
+rm $VF_DIR/*gasp*
 
 python gen_stat.py
 
 
-rm -rf instance_ufo/ *.ufo
+##########################################
+
+rm -rf instance_ufo/ master_ufo/
 
 echo ".
 COMPLETE!
