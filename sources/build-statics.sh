@@ -1,32 +1,29 @@
 #!/bin/sh
 set -e
-source ../env/bin/activate
+#source ../env/bin/activate
+
+fontName="Texturina"
+fontName_it="Texturina-Italic"
+
+##########################################
 
 TT_DIR=../fonts/ttf
 OT_DIR=../fonts/otf
 WEB_DIR=../fonts/webfonts
 
-echo ".
-MAKE UFO
-."
-rm -rf *.ufo
-glyphs2ufo Texturina.glyphs --generate-GDEF
-glyphs2ufo Texturina-Italic.glyphs --generate-GDEF
-rm Texturina.designspace Texturina-Italic.designspace
+rm -rf $TT_DIR $OT_DIR $WEB_DIR
+mkdir -p $TT_DIR $OT_DIR $WEB_DIR
 
 ##########################################
 
 echo ".
 GENERATING STATICS
 ."
-rm -rf $TT_DIR $OT_DIR $WEB_DIR
-mkdir -p $TT_DIR $OT_DIR $WEB_DIR
+fontmake -g $fontName.glyphs -i -o ttf --output-dir $TT_DIR
+fontmake -g $fontName_it.glyphs -i -o ttf --output-dir $TT_DIR
 
-fontmake -m Texturina-statics.designspace -i -o ttf --output-dir $TT_DIR
-fontmake -m Texturina-Italic-statics.designspace -i -o ttf --output-dir $TT_DIR
-
-fontmake -m Texturina-statics.designspace -i -o otf --output-dir $OT_DIR
-fontmake -m Texturina-Italic-statics.designspace -i -o otf --output-dir $OT_DIR
+fontmake -g $fontName.glyphs -i -o otf --output-dir $OT_DIR
+fontmake -g $fontName_it.glyphs -i -o otf --output-dir $OT_DIR
 
 ##########################################
 
@@ -41,6 +38,16 @@ do
 	[ -f $font.fix ] && mv $font.fix $font
 	gftools fix-hinting $font
 	[ -f $font.fix ] && mv $font.fix $font
+	fonttools ttLib.woff2 compress $font
+done
+
+echo ".
+MOVE WEBFONTS TO OWN DIRECTORY
+."
+webfonts=$(ls $TT_DIR/*.woff*)
+for font in $webfonts
+do
+  mv $font $WEB_DIR
 done
 
 echo ".
@@ -54,24 +61,11 @@ do
 	[ -f $font.fix ] && mv $font.fix $font
 done
 
-echo ".
-BUILDDING WEBFONTS
-."
-ttfs=$(ls $TT_DIR/*.ttf)
-for fonts in $ttfs
-do
-  woff2_compress $fonts
-  sfnt2woff-zopfli $fonts
-done
-
-webfonts=$(ls $TT_DIR/*.woff*)
-for font in $webfonts
-do
-  mv $font $WEB_DIR
-done
 
 
-rm -rf instance_ufo/ *.ufo
+
+
+rm -rf instance_ufo/ master_ufo/
 
 echo ".
 COMPLETE!
