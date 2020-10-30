@@ -6,8 +6,8 @@
 
 Texturina, A highly applicable typeface with the richness of Blackletter, yet maintaining fluidity by combining broken and softened curves. Latin GF Plus character set (+630 characters/+800 glyphs). TTFAutohint. Designed by Guillermo Torres (CO).
 
-![Sample of Texturina Family.](Texturina-01.png "Texturina")
-![Sample of Texturina Family.](Texturina-02.png "Texturina")
+![Sample of Texturina Family.](documentation/Texturina-01.png "Texturina")
+![Sample of Texturina Family.](documentation/Texturina-02.png "Texturina")
 
 
 #### Texturina Family contains:
