@@ -30,7 +30,7 @@
           value: 400
           linkedValue: 700
           flags: 2
-        - name: Book
+        - name: Medium
           value: 500
         - name: SemiBold
           value: 600
@@ -69,7 +69,7 @@
           value: 400
           linkedValue: 700
           flags: 2
-        - name: Book
+        - name: Medium
           value: 500
         - name: SemiBold
           value: 600
