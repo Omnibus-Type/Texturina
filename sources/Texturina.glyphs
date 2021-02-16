@@ -1,5 +1,5 @@
 {
-.appVersion = "1348";
+.appVersion = "3061";
 classes = (
 {
 automatic = 1;
@@ -10,25 +10,9 @@ name = Uppercase;
 copyright = "Copyright 2020 The Texturina Project Authors (https://github.com/Omnibus-Type/Texturina)";
 customParameters = (
 {
-name = trademark;
-value = "Texturina is a trademark of Omnibus-Type.";
-},
-{
-name = vendorID;
-value = OMNI;
-},
-{
 name = fsType;
 value = (
 );
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "https://scripts.sil.org/OFL";
 },
 {
 name = "Disable Last Change";
@@ -41,19 +25,6 @@ value = 1;
 {
 name = "Use Typo Metrics";
 value = 1;
-},
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-},
-{
-Name = "Optical size";
-Tag = opsz;
-}
-);
 },
 {
 name = "Variable Font Origin";
@@ -78,6 +49,35 @@ wght = {
 900 = 84;
 };
 };
+},
+{
+name = trademark;
+value = "Texturina is a trademark of Omnibus-Type.";
+},
+{
+name = vendorID;
+value = OMNI;
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+},
+{
+Name = "Optical size";
+Tag = opsz;
+}
+);
 }
 );
 date = "2020-09-29 10:46:45 +0000";
@@ -490,7 +490,10 @@ position = "{260, 414}";
 horizontalStems = (
 34,
 38,
-45
+45,
+0,
+0,
+0
 );
 iconName = Light;
 id = "65D1C757-52A4-41AF-B6F1-0B1906938095";
@@ -604,7 +607,10 @@ position = "{275, 414}";
 horizontalStems = (
 50,
 58,
-74
+74,
+0,
+0,
+0
 );
 id = UUID0;
 userData = {
@@ -734,7 +740,9 @@ GSOffsetVertical = 10;
 verticalStems = (
 84,
 158,
-184
+184,
+0,
+0
 );
 weightValue = 84;
 widthValue = 72;
@@ -832,7 +840,10 @@ position = "{260, 414}";
 horizontalStems = (
 34,
 38,
-45
+45,
+0,
+0,
+0
 );
 iconName = Light_SemiExtended;
 id = "891D9FC5-7784-4CE6-B01A-BC8B0C8DC68C";
@@ -943,7 +954,10 @@ position = "{275, 414}";
 horizontalStems = (
 50,
 58,
-74
+74,
+0,
+0,
+0
 );
 iconName = SemiExtended;
 id = "FC63F3C5-4BD2-445A-988E-6411A2DDD46F";
@@ -1079,7 +1093,9 @@ GSOffsetVertical = 10;
 verticalStems = (
 84,
 158,
-184
+184,
+0,
+0
 );
 weightValue = 84;
 widthValue = 12;
@@ -88634,6 +88650,7 @@ width = 584;
 {
 components = (
 {
+alignment = -1;
 name = zero;
 }
 );
@@ -88643,6 +88660,7 @@ width = 560;
 {
 components = (
 {
+alignment = -1;
 name = zero;
 transform = "{1, 0, 0, 1, 2, 0}";
 }
@@ -88653,6 +88671,7 @@ width = 560;
 {
 components = (
 {
+alignment = -1;
 name = zero;
 transform = "{1, 0, 0, 1, 3, 0}";
 }
@@ -88669,6 +88688,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = one;
 }
 );
@@ -88678,6 +88698,7 @@ width = 309;
 {
 components = (
 {
+alignment = -1;
 name = one;
 }
 );
@@ -88687,6 +88708,7 @@ width = 352;
 {
 components = (
 {
+alignment = -1;
 name = one;
 }
 );
@@ -88696,6 +88718,7 @@ width = 387;
 {
 components = (
 {
+alignment = -1;
 name = one;
 }
 );
@@ -88705,6 +88728,7 @@ width = 309;
 {
 components = (
 {
+alignment = -1;
 name = one;
 }
 );
@@ -88714,6 +88738,7 @@ width = 352;
 {
 components = (
 {
+alignment = -1;
 name = one;
 }
 );
@@ -88729,6 +88754,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = two;
 }
 );
@@ -88738,6 +88764,7 @@ width = 505;
 {
 components = (
 {
+alignment = -1;
 name = two;
 }
 );
@@ -88747,6 +88774,7 @@ width = 505;
 {
 components = (
 {
+alignment = -1;
 name = two;
 }
 );
@@ -88756,6 +88784,7 @@ width = 505;
 {
 components = (
 {
+alignment = -1;
 name = two;
 }
 );
@@ -88765,6 +88794,7 @@ width = 505;
 {
 components = (
 {
+alignment = -1;
 name = two;
 }
 );
@@ -88774,6 +88804,7 @@ width = 505;
 {
 components = (
 {
+alignment = -1;
 name = two;
 }
 );
@@ -88789,6 +88820,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = three;
 }
 );
@@ -88798,6 +88830,7 @@ width = 423;
 {
 components = (
 {
+alignment = -1;
 name = three;
 transform = "{1, 0, 0, 1, 1, 0}";
 }
@@ -88808,6 +88841,7 @@ width = 423;
 {
 components = (
 {
+alignment = -1;
 name = three;
 }
 );
@@ -88817,6 +88851,7 @@ width = 423;
 {
 components = (
 {
+alignment = -1;
 name = three;
 }
 );
@@ -88826,6 +88861,7 @@ width = 423;
 {
 components = (
 {
+alignment = -1;
 name = three;
 transform = "{1, 0, 0, 1, 1, 0}";
 }
@@ -88836,6 +88872,7 @@ width = 423;
 {
 components = (
 {
+alignment = -1;
 name = three;
 }
 );
@@ -88851,6 +88888,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = four;
 }
 );
@@ -88860,6 +88898,7 @@ width = 495;
 {
 components = (
 {
+alignment = -1;
 name = four;
 }
 );
@@ -88869,6 +88908,7 @@ width = 495;
 {
 components = (
 {
+alignment = -1;
 name = four;
 }
 );
@@ -88878,6 +88918,7 @@ width = 495;
 {
 components = (
 {
+alignment = -1;
 name = four;
 }
 );
@@ -88887,6 +88928,7 @@ width = 495;
 {
 components = (
 {
+alignment = -1;
 name = four;
 }
 );
@@ -88896,6 +88938,7 @@ width = 495;
 {
 components = (
 {
+alignment = -1;
 name = four;
 }
 );
@@ -88911,6 +88954,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = five;
 }
 );
@@ -88920,6 +88964,7 @@ width = 409;
 {
 components = (
 {
+alignment = -1;
 name = five;
 }
 );
@@ -88929,6 +88974,7 @@ width = 409;
 {
 components = (
 {
+alignment = -1;
 name = five;
 }
 );
@@ -88938,6 +88984,7 @@ width = 409;
 {
 components = (
 {
+alignment = -1;
 name = five;
 }
 );
@@ -88947,6 +88994,7 @@ width = 409;
 {
 components = (
 {
+alignment = -1;
 name = five;
 }
 );
@@ -88956,6 +89004,7 @@ width = 409;
 {
 components = (
 {
+alignment = -1;
 name = five;
 }
 );
@@ -88971,6 +89020,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = six;
 }
 );
@@ -88980,6 +89030,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = six;
 }
 );
@@ -88989,6 +89040,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = six;
 }
 );
@@ -88998,6 +89050,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = six;
 }
 );
@@ -89007,6 +89060,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = six;
 }
 );
@@ -89016,6 +89070,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = six;
 }
 );
@@ -89031,6 +89086,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = seven;
 }
 );
@@ -89040,6 +89096,7 @@ width = 469;
 {
 components = (
 {
+alignment = -1;
 name = seven;
 }
 );
@@ -89049,6 +89106,7 @@ width = 469;
 {
 components = (
 {
+alignment = -1;
 name = seven;
 }
 );
@@ -89058,6 +89116,7 @@ width = 469;
 {
 components = (
 {
+alignment = -1;
 name = seven;
 }
 );
@@ -89067,6 +89126,7 @@ width = 469;
 {
 components = (
 {
+alignment = -1;
 name = seven;
 }
 );
@@ -89076,6 +89136,7 @@ width = 469;
 {
 components = (
 {
+alignment = -1;
 name = seven;
 }
 );
@@ -89091,6 +89152,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = eight;
 }
 );
@@ -89100,6 +89162,7 @@ width = 480;
 {
 components = (
 {
+alignment = -1;
 name = eight;
 }
 );
@@ -89109,6 +89172,7 @@ width = 480;
 {
 components = (
 {
+alignment = -1;
 name = eight;
 }
 );
@@ -89118,6 +89182,7 @@ width = 480;
 {
 components = (
 {
+alignment = -1;
 name = eight;
 }
 );
@@ -89127,6 +89192,7 @@ width = 480;
 {
 components = (
 {
+alignment = -1;
 name = eight;
 }
 );
@@ -89136,6 +89202,7 @@ width = 480;
 {
 components = (
 {
+alignment = -1;
 name = eight;
 }
 );
@@ -89151,6 +89218,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = nine;
 }
 );
@@ -89160,6 +89228,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = nine;
 }
 );
@@ -89169,6 +89238,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = nine;
 }
 );
@@ -89178,6 +89248,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = nine;
 }
 );
@@ -89187,6 +89258,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = nine;
 }
 );
@@ -89196,6 +89268,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = nine;
 }
 );
