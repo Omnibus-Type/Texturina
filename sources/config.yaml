@@ -4,9 +4,7 @@
     axisOrder:
       - opsz
       - wght
-    outputDir: "../fonts-builder"
     familyName: Texturina
-    buildStatic: false
     stat:
       Texturina[opsz,wght].ttf:
       - name: Optical size
@@ -14,7 +12,6 @@
         values:
         - name: 12pt
           value: 12
-          flags: 2
         - name: 72pt
           value: 72
       - name: Weight
@@ -53,7 +50,6 @@
         values:
         - name: 12pt
           value: 12
-          flags: 2
         - name: 72pt
           value: 72
       - name: Weight
