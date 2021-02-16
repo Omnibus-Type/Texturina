@@ -1,5 +1,5 @@
 {
-.appVersion = "1352";
+.appVersion = "1354";
 classes = (
 {
 automatic = 1;
@@ -157451,5 +157451,5 @@ OV = "157";
 LWPluginVersion = "1429";
 };
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 3;
 }
