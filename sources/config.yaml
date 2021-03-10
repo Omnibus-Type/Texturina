@@ -4,6 +4,7 @@
     axisOrder:
       - opsz
       - wght
+      - ital
     familyName: Texturina
     stat:
       Texturina[opsz,wght].ttf:
