@@ -1,5 +1,5 @@
 {
-.appVersion = "3064";
+.appVersion = "3083";
 classes = (
 {
 automatic = 1;
@@ -157608,6 +157608,147 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
+interpolationWeight = 84;
+interpolationWidth = 12;
+instanceInterpolations = {
+"B67CA61C-C7DB-4511-8D93-FE28BE810A6B" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Texturina 12pt";
+}
+);
+interpolationWeight = 40;
+interpolationWidth = 12;
+instanceInterpolations = {
+"891D9FC5-7784-4CE6-B01A-BC8B0C8DC68C" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Texturina 12pt";
+}
+);
+interpolationWeight = 46;
+interpolationWidth = 12;
+instanceInterpolations = {
+"891D9FC5-7784-4CE6-B01A-BC8B0C8DC68C" = 0.72727;
+"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.27273;
+};
+name = ExtraLight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Texturina 12pt";
+}
+);
+interpolationWeight = 51;
+interpolationWidth = 12;
+instanceInterpolations = {
+"891D9FC5-7784-4CE6-B01A-BC8B0C8DC68C" = 0.5;
+"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.5;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Texturina 12pt";
+}
+);
+interpolationWeight = 57;
+interpolationWidth = 12;
+instanceInterpolations = {
+"891D9FC5-7784-4CE6-B01A-BC8B0C8DC68C" = 0.22727;
+"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.77273;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Texturina 12pt";
+}
+);
+interpolationWeight = 62;
+interpolationWidth = 12;
+instanceInterpolations = {
+"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Texturina 12pt";
+}
+);
+interpolationWeight = 68;
+interpolationWidth = 12;
+instanceInterpolations = {
+"B67CA61C-C7DB-4511-8D93-FE28BE810A6B" = 0.27273;
+"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.72727;
+};
+name = SemiBold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Texturina 12pt";
+}
+);
+interpolationWeight = 73;
+interpolationWidth = 12;
+instanceInterpolations = {
+"B67CA61C-C7DB-4511-8D93-FE28BE810A6B" = 0.5;
+"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.5;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Texturina 12pt";
+}
+);
+interpolationWeight = 79;
+interpolationWidth = 12;
+instanceInterpolations = {
+"B67CA61C-C7DB-4511-8D93-FE28BE810A6B" = 0.77273;
+"FC63F3C5-4BD2-445A-988E-6411A2DDD46F" = 0.22727;
+};
+name = ExtraBold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Texturina 12pt";
+}
+);
 interpolationWeight = 84;
 interpolationWidth = 12;
 instanceInterpolations = {
