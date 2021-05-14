@@ -1,16 +1,16 @@
 name: Build and Check
 
-on: 
+on:
   push:
-    branches: 
-    - master
+    branches:
+      - master
     paths:
-    - sources/**
+      - sources/**
   pull_request:
-    branches: 
-    - master
+    branches:
+      - master
     paths:
-    - sources/**
+      - sources/**
 
 jobs:
   static-font-ci-job:
@@ -37,6 +37,10 @@ jobs:
         with:
           update-wheel: "true"
           update-setuptools: "true"
+      - name: Install ttfautohint
+        run: |
+          sudo apt-get update
+          sudo apt-get install ttfautohint
       - name: Build fonts
         id: build_fonts
         run: gftools builder sources/config.yaml
