@@ -9,6 +9,26 @@ Texturina, A highly applicable typeface with the richness of Blackletter, yet ma
 ![Sample of Texturina Family.](documentation/Texturina-01.png "Texturina")
 ![Sample of Texturina Family.](documentation/Texturina-02.png "Texturina")
 
+#### To build the font:
+
+There are 2 options to build the font. Either you let the github action doing it, either you do it with gftools builder.
+
+A. If you modify the sources (glyphs files in sources directory), it will trigger an "action" which will build the fonts and run Fontbakery (QA tool). If Fontbakery shows no fail (ie. passed and is green), then you can download a package containing the fonts. You will find the last action in the [Actions tab](https://github.com/Omnibus-Type/Texturina/actions), please click on the title of this action (which should be the title of the last commit), and you will find a zip file in the "artifact" section.
+
+B. Otherwise you can build the font locally, after cloning this repo.
+    
+    1. At the root of your local clone (cd path/to/local/clone), create a virtual environment: python3 -m venv env
+    
+    2. Activate the virtual env: source env/bin/activate
+    
+    3. Install gftools (or the requirements) in the virtual env: pip install gftools
+    
+    4. go to the "sources" directory and from the terminal, run : gftools builder config.yaml
+    
+    5. There! you will find the fonts in the fonts directory.
+
+Don't forget to alway activate your virtual environment before running gftools builder.
+
 
 #### Texturina Family contains:
 * On display set
