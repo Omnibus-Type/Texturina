@@ -1,5 +1,5 @@
 {
-.appVersion = "1354";
+.appVersion = "3083";
 classes = (
 {
 automatic = 1;
@@ -10,25 +10,9 @@ name = Uppercase;
 copyright = "Copyright 2020 The Texturina Project Authors (https://github.com/Omnibus-Type/Texturina)";
 customParameters = (
 {
-name = trademark;
-value = "Texturina is a trademark of Omnibus-Type.";
-},
-{
-name = vendorID;
-value = OMNI;
-},
-{
 name = fsType;
 value = (
 );
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "https://scripts.sil.org/OFL";
 },
 {
 name = "Disable Last Change";
@@ -41,19 +25,6 @@ value = 1;
 {
 name = "Use Typo Metrics";
 value = 1;
-},
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-},
-{
-Name = "Optical size";
-Tag = opsz;
-}
-);
 },
 {
 name = "Variable Font Origin";
@@ -78,6 +49,35 @@ wght = {
 900 = 84;
 };
 };
+},
+{
+name = trademark;
+value = "Texturina is a trademark of Omnibus-Type.";
+},
+{
+name = vendorID;
+value = OMNI;
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+},
+{
+Name = "Optical size";
+Tag = opsz;
+}
+);
 }
 );
 date = "2020-09-29 10:47:08 +0000";
@@ -87654,6 +87654,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = zero;
 }
 );
@@ -87663,6 +87664,7 @@ width = 520;
 {
 components = (
 {
+alignment = -1;
 name = zero;
 }
 );
@@ -87672,6 +87674,7 @@ width = 520;
 {
 components = (
 {
+alignment = -1;
 name = zero;
 }
 );
@@ -87681,6 +87684,7 @@ width = 520;
 {
 components = (
 {
+alignment = -1;
 name = zero;
 }
 );
@@ -87690,6 +87694,7 @@ width = 520;
 {
 components = (
 {
+alignment = -1;
 name = zero;
 }
 );
@@ -87699,6 +87704,7 @@ width = 520;
 {
 components = (
 {
+alignment = -1;
 name = zero;
 }
 );
@@ -87714,6 +87720,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = one;
 }
 );
@@ -87723,6 +87730,7 @@ width = 309;
 {
 components = (
 {
+alignment = -1;
 name = one;
 }
 );
@@ -87732,6 +87740,7 @@ width = 352;
 {
 components = (
 {
+alignment = -1;
 name = one;
 }
 );
@@ -87741,6 +87750,7 @@ width = 387;
 {
 components = (
 {
+alignment = -1;
 name = one;
 }
 );
@@ -87750,6 +87760,7 @@ width = 309;
 {
 components = (
 {
+alignment = -1;
 name = one;
 }
 );
@@ -87759,6 +87770,7 @@ width = 352;
 {
 components = (
 {
+alignment = -1;
 name = one;
 }
 );
@@ -87774,6 +87786,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = two;
 }
 );
@@ -87783,6 +87796,7 @@ width = 505;
 {
 components = (
 {
+alignment = -1;
 name = two;
 }
 );
@@ -87792,6 +87806,7 @@ width = 505;
 {
 components = (
 {
+alignment = -1;
 name = two;
 }
 );
@@ -87801,6 +87816,7 @@ width = 505;
 {
 components = (
 {
+alignment = -1;
 name = two;
 }
 );
@@ -87810,6 +87826,7 @@ width = 505;
 {
 components = (
 {
+alignment = -1;
 name = two;
 }
 );
@@ -87819,6 +87836,7 @@ width = 505;
 {
 components = (
 {
+alignment = -1;
 name = two;
 }
 );
@@ -87834,6 +87852,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = three;
 }
 );
@@ -87843,6 +87862,7 @@ width = 423;
 {
 components = (
 {
+alignment = -1;
 name = three;
 transform = "{1, 0, 0, 1, 1, 0}";
 }
@@ -87853,6 +87873,7 @@ width = 423;
 {
 components = (
 {
+alignment = -1;
 name = three;
 }
 );
@@ -87862,6 +87883,7 @@ width = 423;
 {
 components = (
 {
+alignment = -1;
 name = three;
 }
 );
@@ -87871,6 +87893,7 @@ width = 423;
 {
 components = (
 {
+alignment = -1;
 name = three;
 transform = "{1, 0, 0, 1, 1, 0}";
 }
@@ -87881,6 +87904,7 @@ width = 423;
 {
 components = (
 {
+alignment = -1;
 name = three;
 }
 );
@@ -87896,6 +87920,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = four;
 }
 );
@@ -87905,6 +87930,7 @@ width = 495;
 {
 components = (
 {
+alignment = -1;
 name = four;
 }
 );
@@ -87914,6 +87940,7 @@ width = 495;
 {
 components = (
 {
+alignment = -1;
 name = four;
 }
 );
@@ -87923,6 +87950,7 @@ width = 495;
 {
 components = (
 {
+alignment = -1;
 name = four;
 }
 );
@@ -87932,6 +87960,7 @@ width = 495;
 {
 components = (
 {
+alignment = -1;
 name = four;
 }
 );
@@ -87941,6 +87970,7 @@ width = 495;
 {
 components = (
 {
+alignment = -1;
 name = four;
 }
 );
@@ -87956,6 +87986,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = five;
 }
 );
@@ -87965,6 +87996,7 @@ width = 409;
 {
 components = (
 {
+alignment = -1;
 name = five;
 }
 );
@@ -87974,6 +88006,7 @@ width = 409;
 {
 components = (
 {
+alignment = -1;
 name = five;
 }
 );
@@ -87983,6 +88016,7 @@ width = 409;
 {
 components = (
 {
+alignment = -1;
 name = five;
 }
 );
@@ -87992,6 +88026,7 @@ width = 409;
 {
 components = (
 {
+alignment = -1;
 name = five;
 }
 );
@@ -88001,6 +88036,7 @@ width = 409;
 {
 components = (
 {
+alignment = -1;
 name = five;
 }
 );
@@ -88016,6 +88052,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = six;
 }
 );
@@ -88025,6 +88062,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = six;
 }
 );
@@ -88034,6 +88072,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = six;
 }
 );
@@ -88043,6 +88082,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = six;
 }
 );
@@ -88052,6 +88092,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = six;
 }
 );
@@ -88061,6 +88102,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = six;
 }
 );
@@ -88076,6 +88118,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = seven;
 }
 );
@@ -88085,6 +88128,7 @@ width = 469;
 {
 components = (
 {
+alignment = -1;
 name = seven;
 }
 );
@@ -88094,6 +88138,7 @@ width = 469;
 {
 components = (
 {
+alignment = -1;
 name = seven;
 }
 );
@@ -88103,6 +88148,7 @@ width = 469;
 {
 components = (
 {
+alignment = -1;
 name = seven;
 }
 );
@@ -88112,6 +88158,7 @@ width = 469;
 {
 components = (
 {
+alignment = -1;
 name = seven;
 }
 );
@@ -88121,6 +88168,7 @@ width = 469;
 {
 components = (
 {
+alignment = -1;
 name = seven;
 }
 );
@@ -88136,6 +88184,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = eight;
 }
 );
@@ -88145,6 +88194,7 @@ width = 480;
 {
 components = (
 {
+alignment = -1;
 name = eight;
 }
 );
@@ -88154,6 +88204,7 @@ width = 480;
 {
 components = (
 {
+alignment = -1;
 name = eight;
 }
 );
@@ -88163,6 +88214,7 @@ width = 480;
 {
 components = (
 {
+alignment = -1;
 name = eight;
 }
 );
@@ -88172,6 +88224,7 @@ width = 480;
 {
 components = (
 {
+alignment = -1;
 name = eight;
 }
 );
@@ -88181,6 +88234,7 @@ width = 480;
 {
 components = (
 {
+alignment = -1;
 name = eight;
 }
 );
@@ -88196,6 +88250,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = nine;
 }
 );
@@ -88205,6 +88260,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = nine;
 }
 );
@@ -88214,6 +88270,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = nine;
 }
 );
@@ -88223,6 +88280,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = nine;
 }
 );
@@ -88232,6 +88290,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = nine;
 }
 );
@@ -88241,6 +88300,7 @@ width = 471;
 {
 components = (
 {
+alignment = -1;
 name = nine;
 }
 );
@@ -155274,6 +155334,163 @@ name = "ExtraBold Italic";
 weightClass = ExtraBold;
 },
 {
+interpolationWeight = 84;
+interpolationWidth = 12;
+instanceInterpolations = {
+"28047205-16CB-4036-948B-FF1CDF00A7B3" = 1;
+};
+isItalic = 1;
+linkStyle = Black;
+name = "Black Italic";
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Texturina 12pt";
+}
+);
+interpolationWeight = 40;
+interpolationWidth = 12;
+instanceInterpolations = {
+"A63AEE66-7D4A-459A-A35B-D6CC97B4CA0F" = 1;
+};
+isItalic = 1;
+linkStyle = Thin;
+name = "Thin Italic";
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Texturina 12pt";
+}
+);
+interpolationWeight = 46;
+interpolationWidth = 12;
+instanceInterpolations = {
+"65812DC5-BB64-4CCF-B3BD-7266D8F2F6F4" = 0.27273;
+"A63AEE66-7D4A-459A-A35B-D6CC97B4CA0F" = 0.72727;
+};
+isItalic = 1;
+linkStyle = ExtraLight;
+name = "ExtraLight Italic";
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Texturina 12pt";
+}
+);
+interpolationWeight = 51;
+interpolationWidth = 12;
+instanceInterpolations = {
+"65812DC5-BB64-4CCF-B3BD-7266D8F2F6F4" = 0.5;
+"A63AEE66-7D4A-459A-A35B-D6CC97B4CA0F" = 0.5;
+};
+isItalic = 1;
+linkStyle = Light;
+name = "Light Italic";
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Texturina 12pt";
+}
+);
+interpolationWeight = 57;
+interpolationWidth = 12;
+instanceInterpolations = {
+"65812DC5-BB64-4CCF-B3BD-7266D8F2F6F4" = 0.77273;
+"A63AEE66-7D4A-459A-A35B-D6CC97B4CA0F" = 0.22727;
+};
+isItalic = 1;
+name = Italic;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Texturina 12pt";
+}
+);
+interpolationWeight = 62;
+interpolationWidth = 12;
+instanceInterpolations = {
+"65812DC5-BB64-4CCF-B3BD-7266D8F2F6F4" = 1;
+};
+isItalic = 1;
+linkStyle = Medium;
+name = "Medium Italic";
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Texturina 12pt";
+}
+);
+interpolationWeight = 68;
+interpolationWidth = 12;
+instanceInterpolations = {
+"28047205-16CB-4036-948B-FF1CDF00A7B3" = 0.27273;
+"65812DC5-BB64-4CCF-B3BD-7266D8F2F6F4" = 0.72727;
+};
+isItalic = 1;
+linkStyle = SemiBold;
+name = "SemiBold Italic";
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Texturina 12pt";
+}
+);
+interpolationWeight = 73;
+interpolationWidth = 12;
+instanceInterpolations = {
+"28047205-16CB-4036-948B-FF1CDF00A7B3" = 0.5;
+"65812DC5-BB64-4CCF-B3BD-7266D8F2F6F4" = 0.5;
+};
+isBold = 1;
+isItalic = 1;
+name = "Bold Italic";
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Texturina 12pt";
+}
+);
+interpolationWeight = 79;
+interpolationWidth = 12;
+instanceInterpolations = {
+"28047205-16CB-4036-948B-FF1CDF00A7B3" = 0.77273;
+"65812DC5-BB64-4CCF-B3BD-7266D8F2F6F4" = 0.22727;
+};
+isItalic = 1;
+linkStyle = ExtraBold;
+name = "ExtraBold Italic";
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Texturina 12pt";
+}
+);
 interpolationWeight = 84;
 interpolationWidth = 12;
 instanceInterpolations = {
