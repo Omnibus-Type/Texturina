@@ -1,5 +1,5 @@
 {
-.appVersion = "3083";
+.appVersion = "3112";
 classes = (
 {
 automatic = 1;
@@ -59594,7 +59594,7 @@ name = o;
 },
 {
 name = macroncomb;
-transform = "{0.9, 0, 0, 1, 107, 0}";
+transform = "{1, 0, 0, 1, 91, 0}";
 }
 );
 layerId = "65D1C757-52A4-41AF-B6F1-0B1906938095";
@@ -59633,7 +59633,7 @@ name = o;
 },
 {
 name = macroncomb;
-transform = "{0.9, 0, 0, 1, 118, 0}";
+transform = "{1, 0, 0, 1, 102, 0}";
 }
 );
 layerId = "891D9FC5-7784-4CE6-B01A-BC8B0C8DC68C";
@@ -160165,5 +160165,5 @@ tH = "58";
 LWPluginVersion = "1429";
 };
 versionMajor = 1;
-versionMinor = 3;
+versionMinor = 4;
 }
